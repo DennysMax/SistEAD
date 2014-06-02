@@ -1,0 +1,34 @@
+package trabalho.tep.ifpi;
+
+public class Matricula {
+
+	
+	private int numero ;
+	private String descricao;
+	private String tipoMatricula;
+	
+	public int getNumero() {
+		return numero;
+	}
+	
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
+	
+	public String getDescricao() {
+		return descricao;
+	}
+	
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	
+	public String getTipoMatricula() {
+		return tipoMatricula;
+	}
+	
+	public void setTipoMatricula(String tipoMatricula) {
+		this.tipoMatricula = tipoMatricula;
+	}
+	
+}
