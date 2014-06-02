@@ -1,0 +1,56 @@
+package trabalho.tep.ifpi;
+
+public class Materia {
+
+	private String descricao;
+	private String tutor;
+	
+	public String getDescricao() {
+		return descricao;
+	}
+	
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	
+	public String getTutor() {
+		return tutor;
+	}
+	
+	public void setTutor(String tutor) {
+		this.tutor = tutor;
+	}
+
+	public void exibeMaterias(){
+		
+	}
+	
+}
+package trabalho.tep.ifpi;
+
+public class Materia {
+
+	private String descricao;
+	private String tutor;
+	
+	public String getDescricao() {
+		return descricao;
+	}
+	
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	
+	public String getTutor() {
+		return tutor;
+	}
+	
+	public void setTutor(String tutor) {
+		this.tutor = tutor;
+	}
+
+	public void exibeMaterias(){
+		
+	}
+	
+}
