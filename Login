@@ -1,0 +1,53 @@
+package trabalho.tep.ifpi;
+
+import java.math.BigDecimal;
+
+public class Login {
+
+	
+	private String login;
+	private String senha;
+	private BigDecimal tempoAcesso;
+	
+	
+	
+	public String getLogin() {
+		return login;
+	}
+	
+	
+	public void setLogin(String login) {
+		this.login = login;
+	}
+	
+	
+	
+	public String getSenha() {
+		return senha;
+	}
+	
+	
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
+	
+	
+	public BigDecimal getTempoAcesso() {
+		return tempoAcesso;
+	}
+	
+	
+	public void setTempoAcesso(BigDecimal tempoAcesso) {
+		this.tempoAcesso = tempoAcesso;
+	}
+	
+	
+	public void iniciaAcesso(){
+		
+	}
+	
+	public void expiraAcesso(){
+		
+	}
+
+}
